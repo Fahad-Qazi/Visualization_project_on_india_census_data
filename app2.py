@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(layout='wide')
 
 # our dataframe
-df = pd.read_csv(r'c:\Users\Admin\OneDrive\Desktop\100_Days_of_ML\04_Plotly\plotly_project\india-census-data.csv')
+df = pd.read_csv(r'india-census-data.csv')
 
 # all states list
 list_of_states = list(df['State'].unique())
